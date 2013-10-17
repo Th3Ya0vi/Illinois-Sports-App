@@ -30,6 +30,7 @@
     // Initialize homeTeams, need to retrieve data from Online
     homeTeam = [NSArray arrayWithObjects:@"Illini", @"Michigan", @"Illini", @"Illini", @"Rochester", @"NorthWestern", @"Michigan", @"Illini", nil];
      Hello World
+     Hello World
     
     // Initialize awayTeam, also need to get data online
     awayTeam = [NSArray arrayWithObjects:@"Rochester", @"Illini", @"Michigan", @"NorthWestern", @"Illini", @"Illini", @"Illini", @"NorthWestern", nil];
