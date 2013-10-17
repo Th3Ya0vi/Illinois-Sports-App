@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C910F11518105CB6008D7918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910F11418105CB6008D7918 /* Foundation.framework */; };
+		C910F11718105CB6008D7918 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910F11618105CB6008D7918 /* CoreGraphics.framework */; };
+		C910F11918105CB6008D7918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910F11818105CB6008D7918 /* UIKit.framework */; };
+		C910F11F18105CB6008D7918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C910F11D18105CB6008D7918 /* InfoPlist.strings */; };
+		C910F12118105CB6008D7918 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C910F12018105CB6008D7918 /* main.m */; };
+		C910F12518105CB6008D7918 /* IlliniSportsAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C910F12418105CB6008D7918 /* IlliniSportsAppAppDelegate.m */; };
+		C910F12818105CB6008D7918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C910F12618105CB6008D7918 /* Main.storyboard */; };
+		C910F12B18105CB6008D7918 /* IlliniSportsAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C910F12A18105CB6008D7918 /* IlliniSportsAppViewController.m */; };
+		C910F12D18105CB6008D7918 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C910F12C18105CB6008D7918 /* Images.xcassets */; };
+		C910F13418105CB7008D7918 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910F13318105CB7008D7918 /* XCTest.framework */; };
+		C910F13518105CB7008D7918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910F11418105CB6008D7918 /* Foundation.framework */; };
+		C910F13618105CB7008D7918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910F11818105CB6008D7918 /* UIKit.framework */; };
+		C910F13E18105CB7008D7918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C910F13C18105CB7008D7918 /* InfoPlist.strings */; };
+		C910F14018105CB7008D7918 /* IlliniSportsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C910F13F18105CB7008D7918 /* IlliniSportsAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C910F13718105CB7008D7918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C910F10918105CB6008D7918 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C910F11018105CB6008D7918;
+			remoteInfo = IlliniSportsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C910F11118105CB6008D7918 /* IlliniSportsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlliniSportsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C910F11418105CB6008D7918 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C910F11618105CB6008D7918 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C910F11818105CB6008D7918 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C910F11C18105CB6008D7918 /* IlliniSportsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IlliniSportsApp-Info.plist"; sourceTree = "<group>"; };
+		C910F11E18105CB6008D7918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C910F12018105CB6008D7918 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C910F12218105CB6008D7918 /* IlliniSportsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IlliniSportsApp-Prefix.pch"; sourceTree = "<group>"; };
+		C910F12318105CB6008D7918 /* IlliniSportsAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IlliniSportsAppAppDelegate.h; sourceTree = "<group>"; };
+		C910F12418105CB6008D7918 /* IlliniSportsAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlliniSportsAppAppDelegate.m; sourceTree = "<group>"; };
+		C910F12718105CB6008D7918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C910F12918105CB6008D7918 /* IlliniSportsAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IlliniSportsAppViewController.h; sourceTree = "<group>"; };
+		C910F12A18105CB6008D7918 /* IlliniSportsAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlliniSportsAppViewController.m; sourceTree = "<group>"; };
+		C910F12C18105CB6008D7918 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C910F13218105CB7008D7918 /* IlliniSportsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlliniSportsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C910F13318105CB7008D7918 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C910F13B18105CB7008D7918 /* IlliniSportsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IlliniSportsAppTests-Info.plist"; sourceTree = "<group>"; };
+		C910F13D18105CB7008D7918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C910F13F18105CB7008D7918 /* IlliniSportsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlliniSportsAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C910F10E18105CB6008D7918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C910F11718105CB6008D7918 /* CoreGraphics.framework in Frameworks */,
+				C910F11918105CB6008D7918 /* UIKit.framework in Frameworks */,
+				C910F11518105CB6008D7918 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C910F12F18105CB7008D7918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C910F13418105CB7008D7918 /* XCTest.framework in Frameworks */,
+				C910F13618105CB7008D7918 /* UIKit.framework in Frameworks */,
+				C910F13518105CB7008D7918 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C910F10818105CB6008D7918 = {
+			isa = PBXGroup;
+			children = (
+				C910F11A18105CB6008D7918 /* IlliniSportsApp */,
+				C910F13918105CB7008D7918 /* IlliniSportsAppTests */,
+				C910F11318105CB6008D7918 /* Frameworks */,
+				C910F11218105CB6008D7918 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C910F11218105CB6008D7918 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C910F11118105CB6008D7918 /* IlliniSportsApp.app */,
+				C910F13218105CB7008D7918 /* IlliniSportsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C910F11318105CB6008D7918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C910F11418105CB6008D7918 /* Foundation.framework */,
+				C910F11618105CB6008D7918 /* CoreGraphics.framework */,
+				C910F11818105CB6008D7918 /* UIKit.framework */,
+				C910F13318105CB7008D7918 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C910F11A18105CB6008D7918 /* IlliniSportsApp */ = {
+			isa = PBXGroup;
+			children = (
+				C910F12318105CB6008D7918 /* IlliniSportsAppAppDelegate.h */,
+				C910F12418105CB6008D7918 /* IlliniSportsAppAppDelegate.m */,
+				C910F12618105CB6008D7918 /* Main.storyboard */,
+				C910F12918105CB6008D7918 /* IlliniSportsAppViewController.h */,
+				C910F12A18105CB6008D7918 /* IlliniSportsAppViewController.m */,
+				C910F12C18105CB6008D7918 /* Images.xcassets */,
+				C910F11B18105CB6008D7918 /* Supporting Files */,
+			);
+			path = IlliniSportsApp;
+			sourceTree = "<group>";
+		};
+		C910F11B18105CB6008D7918 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C910F11C18105CB6008D7918 /* IlliniSportsApp-Info.plist */,
+				C910F11D18105CB6008D7918 /* InfoPlist.strings */,
+				C910F12018105CB6008D7918 /* main.m */,
+				C910F12218105CB6008D7918 /* IlliniSportsApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C910F13918105CB7008D7918 /* IlliniSportsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C910F13F18105CB7008D7918 /* IlliniSportsAppTests.m */,
+				C910F13A18105CB7008D7918 /* Supporting Files */,
+			);
+			path = IlliniSportsAppTests;
+			sourceTree = "<group>";
+		};
+		C910F13A18105CB7008D7918 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C910F13B18105CB7008D7918 /* IlliniSportsAppTests-Info.plist */,
+				C910F13C18105CB7008D7918 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C910F11018105CB6008D7918 /* IlliniSportsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C910F14318105CB7008D7918 /* Build configuration list for PBXNativeTarget "IlliniSportsApp" */;
+			buildPhases = (
+				C910F10D18105CB6008D7918 /* Sources */,
+				C910F10E18105CB6008D7918 /* Frameworks */,
+				C910F10F18105CB6008D7918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IlliniSportsApp;
+			productName = IlliniSportsApp;
+			productReference = C910F11118105CB6008D7918 /* IlliniSportsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C910F13118105CB7008D7918 /* IlliniSportsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C910F14618105CB7008D7918 /* Build configuration list for PBXNativeTarget "IlliniSportsAppTests" */;
+			buildPhases = (
+				C910F12E18105CB7008D7918 /* Sources */,
+				C910F12F18105CB7008D7918 /* Frameworks */,
+				C910F13018105CB7008D7918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C910F13818105CB7008D7918 /* PBXTargetDependency */,
+			);
+			name = IlliniSportsAppTests;
+			productName = IlliniSportsAppTests;
+			productReference = C910F13218105CB7008D7918 /* IlliniSportsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C910F10918105CB6008D7918 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IlliniSportsApp;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Matthew Liu";
+				TargetAttributes = {
+					C910F13118105CB7008D7918 = {
+						TestTargetID = C910F11018105CB6008D7918;
+					};
+				};
+			};
+			buildConfigurationList = C910F10C18105CB6008D7918 /* Build configuration list for PBXProject "IlliniSportsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C910F10818105CB6008D7918;
+			productRefGroup = C910F11218105CB6008D7918 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C910F11018105CB6008D7918 /* IlliniSportsApp */,
+				C910F13118105CB7008D7918 /* IlliniSportsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C910F10F18105CB6008D7918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C910F12D18105CB6008D7918 /* Images.xcassets in Resources */,
+				C910F11F18105CB6008D7918 /* InfoPlist.strings in Resources */,
+				C910F12818105CB6008D7918 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C910F13018105CB7008D7918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C910F13E18105CB7008D7918 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C910F10D18105CB6008D7918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C910F12518105CB6008D7918 /* IlliniSportsAppAppDelegate.m in Sources */,
+				C910F12B18105CB6008D7918 /* IlliniSportsAppViewController.m in Sources */,
+				C910F12118105CB6008D7918 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C910F12E18105CB7008D7918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C910F14018105CB7008D7918 /* IlliniSportsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C910F13818105CB7008D7918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C910F11018105CB6008D7918 /* IlliniSportsApp */;
+			targetProxy = C910F13718105CB7008D7918 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C910F11D18105CB6008D7918 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C910F11E18105CB6008D7918 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C910F12618105CB6008D7918 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C910F12718105CB6008D7918 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C910F13C18105CB7008D7918 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C910F13D18105CB7008D7918 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C910F14118105CB7008D7918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C910F14218105CB7008D7918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C910F14418105CB7008D7918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IlliniSportsApp/IlliniSportsApp-Prefix.pch";
+				INFOPLIST_FILE = "IlliniSportsApp/IlliniSportsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C910F14518105CB7008D7918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IlliniSportsApp/IlliniSportsApp-Prefix.pch";
+				INFOPLIST_FILE = "IlliniSportsApp/IlliniSportsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C910F14718105CB7008D7918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IlliniSportsApp.app/IlliniSportsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IlliniSportsApp/IlliniSportsApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IlliniSportsAppTests/IlliniSportsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C910F14818105CB7008D7918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IlliniSportsApp.app/IlliniSportsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IlliniSportsApp/IlliniSportsApp-Prefix.pch";
+				INFOPLIST_FILE = "IlliniSportsAppTests/IlliniSportsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C910F10C18105CB6008D7918 /* Build configuration list for PBXProject "IlliniSportsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C910F14118105CB7008D7918 /* Debug */,
+				C910F14218105CB7008D7918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C910F14318105CB7008D7918 /* Build configuration list for PBXNativeTarget "IlliniSportsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C910F14418105CB7008D7918 /* Debug */,
+				C910F14518105CB7008D7918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C910F14618105CB7008D7918 /* Build configuration list for PBXNativeTarget "IlliniSportsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C910F14718105CB7008D7918 /* Debug */,
+				C910F14818105CB7008D7918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C910F10918105CB6008D7918 /* Project object */;
+}
