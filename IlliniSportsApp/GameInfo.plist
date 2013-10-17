@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>homeTeam</key>
+	<array>
+		<string>Illinois</string>
+		<string>Michigan</string>
+		<string>Illinois</string>
+		<string>Illinois</string>
+		<string>Rochester</string>
+		<string>NorthWestern</string>
+		<string>Michigan</string>
+		<string>Illinois</string>
+	</array>
+	<key>homeTeamThumbnails</key>
+	<array>
+		<string>Illinois.jpg</string>
+		<string>michigan.jpg</string>
+		<string>Illinois.jpg</string>
+		<string>Illinois.jpg</string>
+		<string>rochester.jpg</string>
+		<string>wildcats.jpg</string>
+		<string>michigan.jpg</string>
+		<string>Illinois.jpg</string>
+	</array>
+	<key>awayTeam</key>
+	<array>
+		<string>Rochester</string>
+		<string>Illinois</string>
+		<string>Michigan</string>
+		<string>NorthWestern</string>
+		<string>Illinios</string>
+		<string>Illinois</string>
+		<string>Illinois</string>
+		<string>NorthWestern</string>
+	</array>
+	<key>awayTeamThumbnails</key>
+	<array>
+		<string>rochester.gif</string>
+		<string>Illinois.jpg</string>
+		<string>michigan.jpg</string>
+		<string>wildcats.jpg</string>
+		<string>Illinios.jpg</string>
+		<string>Illinois.jpg</string>
+		<string>Illinois.jpg</string>
+		<string>wildcats.jpg</string>
+	</array>
+</dict>
+</plist>

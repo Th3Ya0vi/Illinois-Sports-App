@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IlliniSportsAppViewController : UIViewController
+@interface IlliniSportsAppViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 
 @end
