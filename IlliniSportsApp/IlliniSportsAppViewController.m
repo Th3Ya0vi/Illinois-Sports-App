@@ -37,6 +37,8 @@
     // Initialize teamThumbnails, need to retrieve this data from the awayTeam and homeTeam
     awayTeamThumbnails = [NSArray arrayWithObjects:@"rochester.gif", @"Illinois.jpg", @"michigan.jpg", @"wildcats.jpg", @"Illinois.jpg", @"Illinois.jpg", @"Illinois.jpg", @"wildcats.jpg", nil];
     homeTeamThumbnails = [NSArray arrayWithObjects:@"Illinois.jpg", @"michigan.jpg", @"Illinois.jpg", @"Illinois.jpg", @"rochester.gif", @"wildcats.jpg", @"michigan.jpg", @"Illinois.jpg", nil];
+     
+     HI
      */
     
     // Find out the path of recipes.plist
