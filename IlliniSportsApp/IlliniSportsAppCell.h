@@ -14,5 +14,6 @@
 @property (nonatomic, weak) IBOutlet UILabel *awayTeamLabel;
 @property (nonatomic, weak) IBOutlet UIImageView *homeTeamThumbnailView;
 @property (nonatomic, weak) IBOutlet UIImageView *awayTeamThumbnailView;
+@property (nonatomic, weak) IBOutlet UIImageView *versusThumbnailView;
 
 @end

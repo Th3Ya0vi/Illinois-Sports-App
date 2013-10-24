@@ -20,14 +20,15 @@
 		C910F13618105CB7008D7918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910F11818105CB6008D7918 /* UIKit.framework */; };
 		C910F13E18105CB7008D7918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C910F13C18105CB7008D7918 /* InfoPlist.strings */; };
 		C910F14018105CB7008D7918 /* IlliniSportsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C910F13F18105CB7008D7918 /* IlliniSportsAppTests.m */; };
-		C910F15318106CB0008D7918 /* Illinois.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C910F14F18106CB0008D7918 /* Illinois.jpg */; };
-		C910F15418106CB0008D7918 /* michigan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C910F15018106CB0008D7918 /* michigan.jpg */; };
+		C910F15318106CB0008D7918 /* Illinois.png in Resources */ = {isa = PBXBuildFile; fileRef = C910F14F18106CB0008D7918 /* Illinois.png */; };
+		C910F15418106CB0008D7918 /* michigan.png in Resources */ = {isa = PBXBuildFile; fileRef = C910F15018106CB0008D7918 /* michigan.png */; };
 		C910F15518106CB0008D7918 /* rochester.gif in Resources */ = {isa = PBXBuildFile; fileRef = C910F15118106CB0008D7918 /* rochester.gif */; };
-		C910F15618106CB0008D7918 /* wildcats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C910F15218106CB0008D7918 /* wildcats.jpg */; };
+		C910F15618106CB0008D7918 /* wildcats.png in Resources */ = {isa = PBXBuildFile; fileRef = C910F15218106CB0008D7918 /* wildcats.png */; };
 		C910F15F181073F9008D7918 /* IlliniSportsAppCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C910F15B181073F9008D7918 /* IlliniSportsAppCell.m */; };
 		C910F160181073F9008D7918 /* IlliniSportsAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C910F15D181073F9008D7918 /* IlliniSportsAppViewController.m */; };
 		C910F161181073F9008D7918 /* IlliniSportsAppCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C910F15E181073F9008D7918 /* IlliniSportsAppCell.xib */; };
 		C910F16318107A06008D7918 /* GameInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = C910F16218107A06008D7918 /* GameInfo.plist */; };
+		C9FACCFB181971D90023454E /* Versus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FACCFA181971D90023454E /* Versus.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,16 +59,17 @@
 		C910F13B18105CB7008D7918 /* IlliniSportsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IlliniSportsAppTests-Info.plist"; sourceTree = "<group>"; };
 		C910F13D18105CB7008D7918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C910F13F18105CB7008D7918 /* IlliniSportsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlliniSportsAppTests.m; sourceTree = "<group>"; };
-		C910F14F18106CB0008D7918 /* Illinois.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Illinois.jpg; sourceTree = "<group>"; };
-		C910F15018106CB0008D7918 /* michigan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = michigan.jpg; sourceTree = "<group>"; };
+		C910F14F18106CB0008D7918 /* Illinois.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Illinois.png; sourceTree = "<group>"; };
+		C910F15018106CB0008D7918 /* michigan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = michigan.png; sourceTree = "<group>"; };
 		C910F15118106CB0008D7918 /* rochester.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rochester.gif; sourceTree = "<group>"; };
-		C910F15218106CB0008D7918 /* wildcats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wildcats.jpg; sourceTree = "<group>"; };
+		C910F15218106CB0008D7918 /* wildcats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wildcats.png; sourceTree = "<group>"; };
 		C910F15A181073F9008D7918 /* IlliniSportsAppCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IlliniSportsAppCell.h; sourceTree = "<group>"; };
 		C910F15B181073F9008D7918 /* IlliniSportsAppCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IlliniSportsAppCell.m; sourceTree = "<group>"; };
 		C910F15C181073F9008D7918 /* IlliniSportsAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IlliniSportsAppViewController.h; sourceTree = "<group>"; };
 		C910F15D181073F9008D7918 /* IlliniSportsAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IlliniSportsAppViewController.m; sourceTree = "<group>"; };
 		C910F15E181073F9008D7918 /* IlliniSportsAppCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IlliniSportsAppCell.xib; sourceTree = "<group>"; };
 		C910F16218107A06008D7918 /* GameInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameInfo.plist; sourceTree = "<group>"; };
+		C9FACCFA181971D90023454E /* Versus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Versus.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,15 +129,16 @@
 		C910F11A18105CB6008D7918 /* IlliniSportsApp */ = {
 			isa = PBXGroup;
 			children = (
+				C9FACCFA181971D90023454E /* Versus.png */,
 				C910F15A181073F9008D7918 /* IlliniSportsAppCell.h */,
 				C910F15B181073F9008D7918 /* IlliniSportsAppCell.m */,
 				C910F15C181073F9008D7918 /* IlliniSportsAppViewController.h */,
 				C910F15D181073F9008D7918 /* IlliniSportsAppViewController.m */,
 				C910F15E181073F9008D7918 /* IlliniSportsAppCell.xib */,
-				C910F14F18106CB0008D7918 /* Illinois.jpg */,
-				C910F15018106CB0008D7918 /* michigan.jpg */,
+				C910F14F18106CB0008D7918 /* Illinois.png */,
+				C910F15018106CB0008D7918 /* michigan.png */,
 				C910F15118106CB0008D7918 /* rochester.gif */,
-				C910F15218106CB0008D7918 /* wildcats.jpg */,
+				C910F15218106CB0008D7918 /* wildcats.png */,
 				C910F12318105CB6008D7918 /* IlliniSportsAppAppDelegate.h */,
 				C910F12418105CB6008D7918 /* IlliniSportsAppAppDelegate.m */,
 				C910F12618105CB6008D7918 /* Main.storyboard */,
@@ -253,14 +256,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C910F16318107A06008D7918 /* GameInfo.plist in Resources */,
+				C9FACCFB181971D90023454E /* Versus.png in Resources */,
 				C910F12D18105CB6008D7918 /* Images.xcassets in Resources */,
 				C910F11F18105CB6008D7918 /* InfoPlist.strings in Resources */,
 				C910F12818105CB6008D7918 /* Main.storyboard in Resources */,
-				C910F15318106CB0008D7918 /* Illinois.jpg in Resources */,
+				C910F15318106CB0008D7918 /* Illinois.png in Resources */,
 				C910F15518106CB0008D7918 /* rochester.gif in Resources */,
-				C910F15618106CB0008D7918 /* wildcats.jpg in Resources */,
+				C910F15618106CB0008D7918 /* wildcats.png in Resources */,
 				C910F161181073F9008D7918 /* IlliniSportsAppCell.xib in Resources */,
-				C910F15418106CB0008D7918 /* michigan.jpg in Resources */,
+				C910F15418106CB0008D7918 /* michigan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +495,7 @@
 				C910F14518105CB7008D7918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C910F14618105CB7008D7918 /* Build configuration list for PBXNativeTarget "IlliniSportsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				C910F14818105CB7008D7918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

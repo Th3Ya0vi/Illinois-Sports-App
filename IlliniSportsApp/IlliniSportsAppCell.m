@@ -14,6 +14,7 @@
 @synthesize awayTeamLabel = _awayTeamLabel;
 @synthesize homeTeamThumbnailView = _homeTeamThumbnailView;
 @synthesize awayTeamThumbnailView = _awayTeamThumbnailView;
+@synthesize versusThumbnailView = _versusThumbnailView;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

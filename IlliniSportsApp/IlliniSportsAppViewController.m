@@ -52,6 +52,7 @@
     awayTeam = [dict objectForKey:@"awayTeam"];
     homeTeamThumbnails = [dict objectForKey:@"homeTeamThumbnails"];
     awayTeamThumbnails = [dict objectForKey:@"awayTeamThumbnails"];
+
     
 }
 
@@ -81,6 +82,7 @@
     cell.awayTeamLabel.text = [awayTeam objectAtIndex:indexPath.row];
     cell.homeTeamThumbnailView.image = [UIImage imageNamed:[homeTeamThumbnails objectAtIndex:indexPath.row]];
     cell.awayTeamThumbnailView.image = [UIImage imageNamed:[awayTeamThumbnails objectAtIndex:indexPath.row]];
+    cell.versusThumbnailView.image = [UIImage imageNamed:@"Versus.png"];
     
     return cell;
 }
@@ -106,7 +108,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 66;
+    return 84;
 }
 
 @end

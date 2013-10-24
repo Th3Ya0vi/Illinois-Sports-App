@@ -15,14 +15,14 @@
 	</array>
 	<key>homeTeamThumbnails</key>
 	<array>
-		<string>Illinois.png</string>
-		<string>michigan.png</string>
-		<string>Illinois.png</string>
-		<string>Illinois.png</string>
+		<string>Illinois.jpg</string>
+		<string>michigan.jpg</string>
+		<string>Illinois.jpg</string>
+		<string>Illinois.jpg</string>
 		<string>rochester.gif</string>
-		<string>wildcats.png</string>
-		<string>michigan.png</string>
-		<string>Illinois.png</string>
+		<string>wildcats.jpg</string>
+		<string>michigan.jpg</string>
+		<string>Illinois.jpg</string>
 	</array>
 	<key>awayTeam</key>
 	<array>
@@ -38,13 +38,13 @@
 	<key>awayTeamThumbnails</key>
 	<array>
 		<string>rochester.gif</string>
-		<string>Illinois.png</string>
-		<string>michigan.png</string>
-		<string>wildcats.png</string>
-		<string>Illinois.png</string>
-		<string>Illinois.png</string>
-		<string>Illinois.png</string>
-		<string>wildcats.png</string>
+		<string>Illinois.jpg</string>
+		<string>michigan.jpg</string>
+		<string>wildcats.jpg</string>
+		<string>Illinois.jpg</string>
+		<string>Illinois.jpg</string>
+		<string>Illinois.jpg</string>
+		<string>wildcats.jpg</string>
 	</array>
 </dict>
 </plist>
