@@ -13,8 +13,6 @@
 
 @end
 
-//Random comment
-
 @implementation IlliniSportsAppViewController
 {
     NSArray *homeTeam;
@@ -28,13 +26,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    /*
+    
+    /* Manual inserting elements into each array. This is replaced by downloading info into a formatted plist file, which is then used to insert appropriate data into the appropriate array
+     
     // Initialize homeTeams, need to retrieve data from Online
     homeTeam = [NSArray arrayWithObjects:@"Illini", @"Michigan", @"Illini", @"Illini", @"Rochester", @"NorthWestern", @"Michigan", @"Illini", nil];
-    Hello World
-     Hello World 
-     Life is tough 
-    
+
     // Initialize awayTeam, also need to get data online
     awayTeam = [NSArray arrayWithObjects:@"Rochester", @"Illini", @"Michigan", @"NorthWestern", @"Illini", @"Illini", @"Illini", @"NorthWestern", nil];
     
@@ -43,7 +40,7 @@
     homeTeamThumbnails = [NSArray arrayWithObjects:@"Illinois.jpg", @"michigan.jpg", @"Illinois.jpg", @"Illinois.jpg", @"rochester.gif", @"wildcats.jpg", @"michigan.jpg", @"Illinois.jpg", nil];
      */
     
-    // Find out the path of recipes.plist
+    // Find out the path of GameInfo.plist
     NSString *path = [[NSBundle mainBundle] pathForResource:@"GameInfo" ofType:@"plist"];
     
     // Load the file content and read the data into arrays
@@ -62,6 +59,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+// Find out how many rows to create in Interface. Based on number of HomeTeams
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [homeTeam count];
@@ -69,6 +67,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // Follow the formatting of the custom cells in the IlliniSportsAppsCell
     static NSString *IlliniSportsAppIdentifier = @"IlliniSportsAppCell";
     
     IlliniSportsAppCell *cell = (IlliniSportsAppCell *)[tableView dequeueReusableCellWithIdentifier:IlliniSportsAppIdentifier];
@@ -78,6 +77,7 @@
         cell = [nib objectAtIndex:0];
     }
     
+    // Load the appropriate UI Elements with the appropriate name/picture from the arrays
     cell.homeTeamLabel.text = [homeTeam objectAtIndex:indexPath.row];
     cell.awayTeamLabel.text = [awayTeam objectAtIndex:indexPath.row];
     cell.homeTeamThumbnailView.image = [UIImage imageNamed:[homeTeamThumbnails objectAtIndex:indexPath.row]];
@@ -91,10 +91,15 @@
 {
     NSLog(@"didSelectRowAtIndexPath");
     
-    UIAlertView *messageAlert = [[UIAlertView alloc]
-                                 initWithTitle:@"Insert Date" message:@"Away vs. Home\n Score: ?\n Quarter: ?" delegate:nil cancelButtonTitle:@"Go Illini!" otherButtonTitles:nil];
+    // String variable to concatenate data and format it for output
+    NSString *gameTeams = [NSString stringWithFormat:@"%@%@%@", [awayTeam objectAtIndex:indexPath.row], @" vs ",[homeTeam objectAtIndex:indexPath.row]];
     
-    // Display the Hello World Message
+    // The format of the alert that will pop up when a cell is tapped
+    // All output information is only a temporary stand-in, will be replaced later on. => Will need to establish a different format based on whether a game is finished or not.
+    UIAlertView *messageAlert = [[UIAlertView alloc]
+                                 initWithTitle:@"Insert Date" message:gameTeams delegate:nil cancelButtonTitle:@"ILL-I-N-I" otherButtonTitles:nil];
+    
+    // Display the alert formatted above
     [messageAlert show];
     
     /*
@@ -106,6 +111,7 @@
      */
 }
 
+// Establish the height of each cell inside the UI
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 84;
