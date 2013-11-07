@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7013453F182B464A00DA68CA /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7013453E182B464A00DA68CA /* Schedule.m */; };
+		70744095182C2BCC0041626F /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 70744094182C2BCC0041626F /* Schedule.m */; };
 		C910F11518105CB6008D7918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910F11418105CB6008D7918 /* Foundation.framework */; };
 		C910F11718105CB6008D7918 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910F11618105CB6008D7918 /* CoreGraphics.framework */; };
 		C910F11918105CB6008D7918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C910F11818105CB6008D7918 /* UIKit.framework */; };
@@ -43,8 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7013453D182B464A00DA68CA /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Schedule.h; path = ../../Stuff/Stuff/Schedule.h; sourceTree = "<group>"; };
-		7013453E182B464A00DA68CA /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Schedule.m; path = ../../Stuff/Stuff/Schedule.m; sourceTree = "<group>"; };
+		70744093182C2BCC0041626F /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		70744094182C2BCC0041626F /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
 		C910F11118105CB6008D7918 /* IlliniSportsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlliniSportsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C910F11418105CB6008D7918 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C910F11618105CB6008D7918 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,9 +132,9 @@
 		C910F11A18105CB6008D7918 /* IlliniSportsApp */ = {
 			isa = PBXGroup;
 			children = (
-				7013453D182B464A00DA68CA /* Schedule.h */,
-				7013453E182B464A00DA68CA /* Schedule.m */,
 				C9FACCFA181971D90023454E /* Versus.png */,
+				70744093182C2BCC0041626F /* Schedule.h */,
+				70744094182C2BCC0041626F /* Schedule.m */,
 				C910F15A181073F9008D7918 /* IlliniSportsAppCell.h */,
 				C910F15B181073F9008D7918 /* IlliniSportsAppCell.m */,
 				C910F15C181073F9008D7918 /* IlliniSportsAppViewController.h */,
@@ -288,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7013453F182B464A00DA68CA /* Schedule.m in Sources */,
+				70744095182C2BCC0041626F /* Schedule.m in Sources */,
 				C910F15F181073F9008D7918 /* IlliniSportsAppCell.m in Sources */,
 				C910F12518105CB6008D7918 /* IlliniSportsAppAppDelegate.m in Sources */,
 				C910F160181073F9008D7918 /* IlliniSportsAppViewController.m in Sources */,
