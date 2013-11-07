@@ -72,8 +72,7 @@
     NSString *urlAsString = @"http://www.fightingillini.com/sports/m-footbl/sched/ill-m-footbl-sched.html";
     NSURL *url = [[NSURL alloc] initWithString:urlAsString];
     NSString *urlContent= [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
- 
-//   NSLog(urlContent);
+
     static NSRange range={0,0};
     NSUInteger urlLength= [urlContent length];
 
