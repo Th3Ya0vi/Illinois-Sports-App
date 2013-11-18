@@ -8,6 +8,7 @@
 
 #import "IlliniSportsAppViewController.h"
 #import "IlliniSportsAppCell.h"
+#import "Schedule.h"
 
 @interface IlliniSportsAppViewController ()
 
@@ -15,18 +16,39 @@
 
 @implementation IlliniSportsAppViewController
 {
-    NSArray *homeTeam;
-    NSArray *awayTeam;
-    NSArray *awayTeamThumbnails;
-    NSArray *homeTeamThumbnails;
+    NSMutableArray *homeTeam;
+    NSMutableArray *awayTeam;
+    NSMutableArray *awayTeamThumbnails;
+    NSMutableArray *homeTeamThumbnails;
+    NSMutableArray *stadium;
+    NSMutableArray *result;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     
+    Schedule *game=[[Schedule alloc] init];
+    stadium=[[NSMutableArray alloc] init];
+    result=[[NSMutableArray alloc] init];
+    homeTeam=[[NSMutableArray alloc] init];
+    awayTeam=[[NSMutableArray alloc] init];
+   
+    do {
+        game=[Schedule getInfoOfGame];
+        if(game!=nil){
+            if(game.isHome!=nil)[homeTeam addObject:(game.isHome?@"Illini":game.team)];
+           if(game.isHome!=nil) [awayTeam addObject:(game.isHome?game.team:@"Illini")];
+         if(game.stadium != nil)   [stadium addObject:game.stadium];
+           if(game.result != nil) [result addObject:game.result];
+        }
+    } while(game!=nil);
     
+    NSLog(@"%d",[stadium count]);
+    for(int i=0; i<[homeTeam count]; i++){
+       NSLog(@"hi");
+    }
+	// Do any additional setup after loading the view, typically from     
     /* Manual inserting elements into each array. This is replaced by downloading info into a formatted plist file, which is then used to insert appropriate data into the appropriate array
      
     // Initialize homeTeams, need to retrieve data from Online
@@ -41,14 +63,14 @@
      */
     
     // Find out the path of GameInfo.plist
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"GameInfo" ofType:@"plist"];
+    //NSString *path = [[NSBundle mainBundle] pathForResource:@"GameInfo" ofType:@"plist"];
     
     // Load the file content and read the data into arrays
-    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
-    homeTeam = [dict objectForKey:@"homeTeam"];
-    awayTeam = [dict objectForKey:@"awayTeam"];
-    homeTeamThumbnails = [dict objectForKey:@"homeTeamThumbnails"];
-    awayTeamThumbnails = [dict objectForKey:@"awayTeamThumbnails"];
+    //NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+   // homeTeam = [dict objectForKey:@"homeTeam"];
+  //  awayTeam = [dict objectForKey:@"awayTeam"];
+   // homeTeamThumbnails = [dict objectForKey:@"homeTeamThumbnails"];
+   // awayTeamThumbnails = [dict objectForKey:@"awayTeamThumbnails"];
 
     
 }

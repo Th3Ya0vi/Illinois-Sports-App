@@ -90,7 +90,7 @@
         range.length=postRange.location-range.location;
  
         NSString *finalResult = [urlContent substringWithRange:range];
-    
+        
         switch (count) {
             case 0:
                 game.date= finalResult;
